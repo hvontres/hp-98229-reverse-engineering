@@ -22326,7 +22326,7 @@
 			)
 		)
 	)
-	(global_label "C1D3"
+	(global_label "C0D3"
 		(shape input)
 		(at 273.05 379.73 0)
 		(fields_autoplaced yes)
