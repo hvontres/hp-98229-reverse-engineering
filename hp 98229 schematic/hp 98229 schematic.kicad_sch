@@ -3027,6 +3027,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:Jumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -4133,6 +4283,12 @@
 		(uuid "999b5f0a-d346-4aaa-992e-8f0380cf913d")
 	)
 	(junction
+		(at 241.3 407.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e57a7ea-a6da-4371-88bf-2bf8dbe4e379")
+	)
+	(junction
 		(at 488.95 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4442,6 +4598,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 389.89) (xy 238.76 396.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aaa214c-ed94-45ea-9270-d0b719175858")
+	)
+	(wire
+		(pts
 			(xy 461.01 78.74) (xy 461.01 91.44)
 		)
 		(stroke
@@ -4489,6 +4655,16 @@
 			(type default)
 		)
 		(uuid "111e1683-45bb-45a6-a471-b9377943306d")
+	)
+	(wire
+		(pts
+			(xy 236.22 349.25) (xy 254 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c6343c-0fbb-4534-ab46-1d65bce05abb")
 	)
 	(wire
 		(pts
@@ -4712,6 +4888,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 384.81) (xy 236.22 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214772e1-f894-4511-b20b-e6f647db3e8d")
+	)
+	(wire
+		(pts
 			(xy 461.01 66.04) (xy 461.01 78.74)
 		)
 		(stroke
@@ -4772,6 +4958,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 384.81) (xy 236.22 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f7ed98-4cde-4efb-b1a8-e26e282a28c1")
+	)
+	(wire
+		(pts
 			(xy 444.5 40.64) (xy 449.58 40.64)
 		)
 		(stroke
@@ -4779,6 +4975,16 @@
 			(type default)
 		)
 		(uuid "29bb54d4-29f4-41ef-8006-d87f9e2b7e9b")
+	)
+	(wire
+		(pts
+			(xy 238.76 407.67) (xy 238.76 406.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a000582-53b9-4e86-b5a6-6119fcf8112e")
 	)
 	(wire
 		(pts
@@ -4882,7 +5088,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 346.71) (xy 254 346.71)
+			(xy 243.84 384.81) (xy 243.84 388.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33079dfc-bff9-4961-bd0b-f814961bc294")
+	)
+	(wire
+		(pts
+			(xy 238.76 389.89) (xy 233.68 389.89)
 		)
 		(stroke
 			(width 0)
@@ -5049,6 +5265,16 @@
 			(type default)
 		)
 		(uuid "3dea82ef-417c-4b1b-96a9-9f15fad38655")
+	)
+	(wire
+		(pts
+			(xy 238.76 407.67) (xy 241.3 407.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dede93e-27a0-423c-95c2-852475b2ea03")
 	)
 	(wire
 		(pts
@@ -5372,7 +5598,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 351.79) (xy 287.02 355.6)
+			(xy 288.29 351.79) (xy 288.29 389.89)
 		)
 		(stroke
 			(width 0)
@@ -5439,6 +5665,16 @@
 			(type default)
 		)
 		(uuid "59b06a16-61e9-4116-bc8d-fa7a794d777a")
+	)
+	(wire
+		(pts
+			(xy 233.68 346.71) (xy 254 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad1f6e7-cd00-41cd-9145-4989a7600b63")
 	)
 	(wire
 		(pts
@@ -5679,16 +5915,6 @@
 			(type default)
 		)
 		(uuid "6f35fff0-2856-4001-9bad-f4bc116adcc4")
-	)
-	(wire
-		(pts
-			(xy 247.65 349.25) (xy 254 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f874fd3-d9d4-442a-ac11-204431254491")
 	)
 	(wire
 		(pts
@@ -6099,6 +6325,16 @@
 			(type default)
 		)
 		(uuid "94c8a386-0748-4e5d-afe7-16297d002889")
+	)
+	(wire
+		(pts
+			(xy 233.68 389.89) (xy 233.68 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94dcaab4-7e18-46f8-b0c0-8aa98de018f4")
 	)
 	(wire
 		(pts
@@ -6592,16 +6828,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 353.06) (xy 236.22 346.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0c13dce-1921-4734-ae2b-98ecb4b5862b")
-	)
-	(wire
-		(pts
 			(xy 457.2 129.54) (xy 461.01 129.54)
 		)
 		(stroke
@@ -6629,6 +6855,16 @@
 			(type default)
 		)
 		(uuid "c2b76f6e-25e7-45d1-a732-03f585782aee")
+	)
+	(wire
+		(pts
+			(xy 243.84 407.67) (xy 243.84 398.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cb2a3d-4d8f-4f38-b38b-ed985251d932")
 	)
 	(wire
 		(pts
@@ -6792,7 +7028,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 351.79) (xy 287.02 351.79)
+			(xy 266.7 351.79) (xy 288.29 351.79)
 		)
 		(stroke
 			(width 0)
@@ -6859,6 +7095,16 @@
 			(type default)
 		)
 		(uuid "d4e488e6-ab9c-4351-b8c4-bf1e5400eae6")
+	)
+	(wire
+		(pts
+			(xy 241.3 407.67) (xy 243.84 407.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66b7915-9b97-4eee-89b4-d50ff9472aee")
 	)
 	(wire
 		(pts
@@ -7290,6 +7536,525 @@
 		)
 		(uuid "fec36063-b00c-41e0-83e5-beea746bae46")
 	)
+	(table
+		(column_count 4)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 11.43 7.62 7.62 7.62)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "Size"
+				(exclude_from_sim no)
+				(at 139.7 388.62 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "eee0bc11-247a-489f-9da2-8ffab5845cc3")
+			)
+			(table_cell "ID 0"
+				(exclude_from_sim no)
+				(at 151.13 388.62 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "607de72f-b11c-4778-8bdc-57d454527936")
+			)
+			(table_cell "ID 1"
+				(exclude_from_sim no)
+				(at 158.75 388.62 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "92634716-7776-4120-9648-8a9efe9797b3")
+			)
+			(table_cell "ID 2"
+				(exclude_from_sim no)
+				(at 166.37 388.62 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "0dd1fab1-1ab4-45cd-961c-7808c8feace0")
+			)
+			(table_cell "1MB"
+				(exclude_from_sim no)
+				(at 139.7 391.16 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "ac9f0e0b-6e71-474e-b2ed-fc04130bec1e")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 151.13 391.16 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "93b2375f-ec38-42fe-8337-08c969296a8d")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 158.75 391.16 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a9023111-cefd-446c-97bc-04e9aecdb2ca")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 166.37 391.16 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4585c79c-55d8-49d1-b4cb-54a91327c2ae")
+			)
+			(table_cell "2MB"
+				(exclude_from_sim no)
+				(at 139.7 393.7 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "abbf4988-e37c-424e-944d-30be72474c1c")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 151.13 393.7 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "66b896cf-728e-4867-bac5-76b01fd66628")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 158.75 393.7 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0ccc138d-ad15-4b23-b954-1ad05cd25a14")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 166.37 393.7 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "754f1e6d-920c-4cb4-91cc-3d3b0c32467a")
+			)
+			(table_cell "4MB old"
+				(exclude_from_sim no)
+				(at 139.7 396.24 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "b2164115-0299-4237-86dc-db34d7a57367")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 151.13 396.24 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "14e06efd-908a-4075-bb59-b2aabcd4b974")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 158.75 396.24 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "93d31fd8-dc53-45e2-a1fa-a78c51018eb6")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 166.37 396.24 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "684bd7bf-67d1-4df4-a95c-4e0f12d8975e")
+			)
+			(table_cell "4MB new"
+				(exclude_from_sim no)
+				(at 139.7 398.78 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "886b136a-6500-401d-be7b-0ce5d7fc5964")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 151.13 398.78 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "aa30eded-c3da-4b9d-ae3b-dd7cc02c7fb9")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 158.75 398.78 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a052ad38-03a9-42fa-81a5-19bc15d0e564")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 166.37 398.78 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9239901b-526a-4d21-b364-75dc47d60f91")
+			)
+			(table_cell "8MB"
+				(exclude_from_sim no)
+				(at 139.7 401.32 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "5282d470-2296-4cc8-b811-50b7910aaf6c")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 151.13 401.32 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "87512d11-ec45-4b3b-afcc-c883b6074b08")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 158.75 401.32 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f16cfb55-02ac-45b9-b102-cdc9f4bbc743")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 166.37 401.32 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6e972ea9-8a15-4e3f-a626-1d2de35eca6e")
+			)
+			(table_cell "16MB"
+				(exclude_from_sim no)
+				(at 139.7 403.86 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "e7da07ce-197b-4ed6-8b81-00dbf7a63550")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 151.13 403.86 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "97456abb-4aff-4688-937f-66903ab9c807")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 158.75 403.86 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "32668a6a-343d-4f53-bf77-0b36cd8b8550")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 166.37 403.86 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b72d3bdf-e516-40c8-b25a-6d8770c4f742")
+			)
+		)
+	)
 	(label "WRITE1"
 		(at 254 339.09 180)
 		(effects
@@ -7469,6 +8234,16 @@
 			(justify right bottom)
 		)
 		(uuid "b8aa16c0-4488-4492-8eb3-0f83f0a24e2b")
+	)
+	(label "ID0"
+		(at 250.19 349.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd41fbff-9b98-4ada-a8ec-f0fdccb11e33")
 	)
 	(label "~{A9}"
 		(at 267.97 316.23 0)
@@ -23691,7 +24466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 142.5448 0)
 			(effects
 				(font
@@ -23759,7 +24534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 128.5748 0)
 			(effects
 				(font
@@ -24084,7 +24859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 77.7748 0)
 			(effects
 				(font
@@ -24378,7 +25153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 65.0748 0)
 			(effects
 				(font
@@ -24781,8 +25556,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 287.02 360.68 270)
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 288.29 394.97 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -24790,24 +25565,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a278368-93b5-4d19-b6dd-764b381d2334")
-		(property "Reference" "JP1"
-			(at 281.94 360.68 0)
+		(property "Reference" "JP3"
+			(at 283.21 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
-			(at 284.48 360.68 0)
+		(property "Value" "Jumper_2_closed"
+			(at 285.75 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 287.02 360.68 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 288.29 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24816,7 +25591,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 287.02 360.68 0)
+			(at 288.29 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24824,8 +25599,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 287.02 360.68 0)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 288.29 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24842,7 +25617,7 @@
 		(instances
 			(project ""
 				(path "/281e54b5-c24d-47e6-a5e5-9faaefadcfcd"
-					(reference "JP1")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -25218,7 +25993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 142.5448 0)
 			(effects
 				(font
@@ -25746,7 +26521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 180.6448 0)
 			(effects
 				(font
@@ -26320,7 +27095,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 236.22 358.14 90)
+		(at 238.76 401.32 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -26329,7 +27104,7 @@
 		(dnp no)
 		(uuid "29e43673-4811-432f-bc40-26c5afbdd978")
 		(property "Reference" "JP2"
-			(at 229.87 358.14 0)
+			(at 232.41 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26337,15 +27112,15 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 232.41 358.14 0)
+			(at 234.95 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 236.22 358.14 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 238.76 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26354,7 +27129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 358.14 0)
+			(at 238.76 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26363,7 +27138,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 236.22 358.14 0)
+			(at 238.76 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26601,7 +27376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 115.8748 0)
 			(effects
 				(font
@@ -26962,7 +27737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 218.7448 0)
 			(effects
 				(font
@@ -27820,7 +28595,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 206.0448 0)
 			(effects
 				(font
@@ -28023,7 +28798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 501.65 175.5648 0)
 			(effects
 				(font
@@ -28213,7 +28988,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 193.3448 0)
 			(effects
 				(font
@@ -29405,7 +30180,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 77.7748 0)
 			(effects
 				(font
@@ -29473,7 +30248,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 26.9748 0)
 			(effects
 				(font
@@ -29517,7 +30292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 363.22 0)
+		(at 241.3 407.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29526,7 +30301,7 @@
 		(fields_autoplaced yes)
 		(uuid "59dd8cb7-26e3-446d-9259-75bedb8f9d41")
 		(property "Reference" "#PWR017"
-			(at 236.22 369.57 0)
+			(at 241.3 414.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29535,7 +30310,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 368.3 0)
+			(at 241.3 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29543,7 +30318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 363.22 0)
+			(at 241.3 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29552,7 +30327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 363.22 0)
+			(at 241.3 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29561,7 +30336,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 363.22 0)
+			(at 241.3 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29583,7 +30358,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 287.02 365.76 0)
+		(at 288.29 400.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29592,7 +30367,7 @@
 		(fields_autoplaced yes)
 		(uuid "59f7783c-5919-440b-b199-f82c8a4132b0")
 		(property "Reference" "#PWR016"
-			(at 287.02 372.11 0)
+			(at 288.29 406.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29601,7 +30376,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 287.02 370.84 0)
+			(at 288.29 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29609,7 +30384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 365.76 0)
+			(at 288.29 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29618,7 +30393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 365.76 0)
+			(at 288.29 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29627,7 +30402,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 287.02 365.76 0)
+			(at 288.29 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29843,7 +30618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 52.3748 0)
 			(effects
 				(font
@@ -29948,73 +30723,6 @@
 			(project "hp 98229 schematic"
 				(path "/281e54b5-c24d-47e6-a5e5-9faaefadcfcd"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 247.65 349.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6184b770-dc73-40c5-9fec-ce6033266b17")
-		(property "Reference" "#PWR010"
-			(at 241.3 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 349.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "593eabb6-f802-4cc0-a5f2-00f04ae924a1")
-		)
-		(instances
-			(project ""
-				(path "/281e54b5-c24d-47e6-a5e5-9faaefadcfcd"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -30821,7 +31529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 167.9448 0)
 			(effects
 				(font
@@ -30889,7 +31597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 155.2448 0)
 			(effects
 				(font
@@ -30957,7 +31665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 167.9448 0)
 			(effects
 				(font
@@ -31535,7 +32243,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 103.1748 0)
 			(effects
 				(font
@@ -32015,7 +32723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 218.7448 0)
 			(effects
 				(font
@@ -32256,7 +32964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x36_P2.54mm_Horizontal"
 			(at 259.08 334.01 0)
 			(effects
 				(font
@@ -33493,7 +34201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 39.6748 0)
 			(effects
 				(font
@@ -33867,7 +34575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 155.2448 0)
 			(effects
 				(font
@@ -34670,7 +35378,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 231.4448 0)
 			(effects
 				(font
@@ -34738,7 +35446,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 231.4448 0)
 			(effects
 				(font
@@ -35906,7 +36614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 193.3448 0)
 			(effects
 				(font
@@ -36620,7 +37328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 244.1448 0)
 			(effects
 				(font
@@ -37190,7 +37898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 90.4748 0)
 			(effects
 				(font
@@ -37258,7 +37966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 90.4748 0)
 			(effects
 				(font
@@ -37688,7 +38396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 501.65 188.2648 0)
 			(effects
 				(font
@@ -38049,7 +38757,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 39.6748 0)
 			(effects
 				(font
@@ -38117,7 +38825,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 206.0448 0)
 			(effects
 				(font
@@ -38812,6 +39520,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 243.84 393.7 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0a10f19-7db1-4df7-bdfd-7d1458a9f881")
+		(property "Reference" "JP1"
+			(at 245.11 392.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 245.11 394.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 243.84 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 243.84 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d85879e-746c-4fe8-bd2a-5be93653460e")
+		)
+		(pin "1"
+			(uuid "c5babf36-f8e8-4858-ab16-5a3df04a61aa")
+		)
+		(instances
+			(project ""
+				(path "/281e54b5-c24d-47e6-a5e5-9faaefadcfcd"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 184.15 118.11 90)
 		(unit 1)
@@ -38971,7 +39749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 103.1748 0)
 			(effects
 				(font
@@ -39373,7 +40151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 128.5748 0)
 			(effects
 				(font
@@ -39441,7 +40219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 180.6448 0)
 			(effects
 				(font
@@ -40021,7 +40799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 115.8748 0)
 			(effects
 				(font
@@ -40089,7 +40867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 65.0748 0)
 			(effects
 				(font
@@ -40397,7 +41175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 457.2 52.3748 0)
 			(effects
 				(font
@@ -41240,7 +42018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 244.1448 0)
 			(effects
 				(font
@@ -41977,7 +42755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 433.07 26.9748 0)
 			(effects
 				(font
@@ -42248,7 +43026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-20_Kemet-V_Pad2.25x2.55mm_HandSolder"
 			(at 492.76 156.5148 0)
 			(effects
 				(font
@@ -42316,7 +43094,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 501.65 200.9648 0)
 			(effects
 				(font
